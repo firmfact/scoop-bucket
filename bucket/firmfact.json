@@ -1,0 +1,27 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/firmfact/cli/releases/download/v0.1.0/firmfact_0.1.0_windows_amd64.zip",
+            "bin": [
+                "firmfact.exe"
+            ],
+            "hash": "a12333e4ab8fa907ee191e3a3351bff2d98ed082c00b5e102ccabf30a7f11723"
+        },
+        "arm64": {
+            "url": "https://github.com/firmfact/cli/releases/download/v0.1.0/firmfact_0.1.0_windows_arm64.zip",
+            "bin": [
+                "firmfact.exe"
+            ],
+            "hash": "a29e1e1c26c101682b2c63665e70f5d0f1cc1b0c118766a9c375ee472b4baec5"
+        }
+    },
+    "homepage": "https://firmfact.com/cli",
+    "license": "Apache-2.0",
+    "description": "Sign up, sign in and query your firmfact workspaces from the command line",
+    "post_install": [
+        "Write-Host ''",
+        "Write-Host 'Tab completion for firmfact: add this line to your PowerShell profile ($PROFILE):'",
+        "Write-Host \"  . `\"$dir\\completions\\firmfact.ps1`\"\""
+    ]
+}
