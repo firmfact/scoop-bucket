@@ -1,19 +1,19 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/firmfact/cli/releases/download/v0.1.0/firmfact_0.1.0_windows_amd64.zip",
+            "url": "https://github.com/firmfact/cli/releases/download/v0.1.1/firmfact_0.1.1_windows_amd64.zip",
             "bin": [
                 "firmfact.exe"
             ],
-            "hash": "a12333e4ab8fa907ee191e3a3351bff2d98ed082c00b5e102ccabf30a7f11723"
+            "hash": "1e220228f9703ca4c4c95e91e770dbfa3c6777bcf92e3c47cb6842b8439da84b"
         },
         "arm64": {
-            "url": "https://github.com/firmfact/cli/releases/download/v0.1.0/firmfact_0.1.0_windows_arm64.zip",
+            "url": "https://github.com/firmfact/cli/releases/download/v0.1.1/firmfact_0.1.1_windows_arm64.zip",
             "bin": [
                 "firmfact.exe"
             ],
-            "hash": "a29e1e1c26c101682b2c63665e70f5d0f1cc1b0c118766a9c375ee472b4baec5"
+            "hash": "988d8c1ad17afd1bfcd8573d7c78ffbc963b997bb11eef338e612ac37a431086"
         }
     },
     "homepage": "https://firmfact.com/cli",
